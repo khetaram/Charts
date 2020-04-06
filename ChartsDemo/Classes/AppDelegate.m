@@ -26,7 +26,9 @@
     
     DemoListViewController *vc = [[DemoListViewController alloc] init];
     UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
-    
+
+    NSLog(@"PR templet");
+
     _window.rootViewController = nvc;
     [_window makeKeyAndVisible];
     
